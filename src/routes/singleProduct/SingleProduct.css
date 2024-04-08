@@ -1,0 +1,73 @@
+.single-product {
+  padding: 80px;
+}
+
+.single-product-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.single-product-link {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.single-product-title {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 42px;
+  color: #000;
+}
+
+.single-product-descr {
+  width: 500px;
+  margin-top: 20px;
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+}
+
+.single-product-price {
+  display: block;
+  margin-top: 20px;
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #000;
+}
+
+.single-product-action-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.single-product-action-bar > button {
+  border: 0;
+  cursor: pointer;
+}
+
+.single-product-like-btn {
+  background-color: transparent;
+}
+
+.single-product-add-btn {
+  background-color: #000;
+  padding: 10px 80px;
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+  color: #fff;
+}
+
+.single-product-add-btn:active {
+  background-color: #686868;
+}
